@@ -1,0 +1,118 @@
+/*css Main*/
+.main{
+	width:1500px;
+	margin:0 auto;
+}
+/*----------------------*/
+/*css Main*/
+@font-face {
+    font-family: fontlogo;
+    src: url(../font/pdark.ttf);
+}
+
+.logo{
+	float:left;
+}
+
+.logo h1{
+	font-family:fontlogo;
+	font-size:50px;	
+	
+}
+
+.formdn{
+	float:right;
+}
+
+.formdn a{
+	text-decoration:none;
+	font-size:25px;
+	color:#000;
+}
+
+.formdn a:hover{
+	color:#F00;
+}
+
+.formdn ul{
+	list-style-type:none;
+}
+
+.formdn ul li{
+	float:left;
+	padding-left:15px;
+}
+/*----------------------*/
+/*----------Content------------*/
+.content-left{
+	width:400px;
+}
+.hangxanxuat h1{
+	background-color:#000;
+	color:#FFF;
+	padding:10px;
+}
+.hangxanxuat a{
+	text-decoration:none;
+	font-size:28px;
+	padding-bottom:10px;
+	color:#000;
+}
+.hangxanxuat a:hover
+{
+	color:#900;
+	background-color:#CCC;
+}
+
+.loaisanpham h1{
+	background-color:#000;
+	color:#FFF;
+	padding:10px;
+}
+
+.loaisanpham a{
+	text-decoration:none;
+	font-size:28px;
+	padding:5px;
+	color:#000;
+}
+.loaisanpham a:hover
+{
+	color:#900;
+	background-color:#CCC;
+}
+.content-left{
+	float:left;
+}
+.content-right{
+	float:left;
+	margin-left:10px;
+	width:1090px;
+}
+.content{
+	margin-bottom:10px;
+}
+.sanpham{
+	width:1090px;
+	float:left;
+}
+.sanpham h1{
+	background-color:#000;
+	color:#FFF;
+	padding:10px;
+}
+.sp{
+	width:360px; 
+	float:left;
+}
+/*---------footer-------------*/
+.footer{
+	background-color:#000;
+	color:#FFF;
+	width:1500px;
+	height:55px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24px;
+	padding-top:10px;
+	margin-top:20px;
+}

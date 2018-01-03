@@ -1,0 +1,110 @@
+/* CSS Document */
+@font-face{
+	font-family:fontbody;
+	src:url(../../font/Nunito-Regular.ttf);
+}
+
+body{
+	font-family:fontbody;
+}
+/* Start Header*/
+.header{
+	width:100%;
+	height:50px;
+	background-color:#000;
+	border-radius:20px 20px 0px 0px;
+}
+
+.logo h1{
+	color:#FFF;
+	margin-left:50px;
+}
+
+.formdn{
+	float:right;
+	font-size:16px;
+	color:#FFF;
+}
+
+.formdn a{
+	text-decoration:none;
+	font-size:15px;
+	color:#FFF;
+}
+
+.formdn a:hover{
+	color:#0CF;
+}
+
+.formdn ul li a img
+{
+	vertical-align:middle;
+	margin-bottom:4px;
+	margin-right:3px;
+}
+
+.formdn ul{
+	list-style-type:none;
+	margin:0;
+	display:inline;
+}
+
+.formdn ul li{
+	float:left;
+	padding-left:15px;
+}
+/* End Header*/
+
+/* Start content*/
+.content
+{
+	width:100%;
+}
+
+.content-left
+{
+	background-color:#000;
+	float:left;
+	width:20%;
+}
+
+
+.content-left ul li a:hover
+{
+	background-color:#0FF;
+}
+
+ul
+{
+	padding:0;
+}
+
+.content-left ul
+{
+	list-style-type:none;
+	margin:0;
+}
+
+.content-left ul li
+{
+	border-bottom: 1px solid #000;
+}
+
+.content-left ul li a
+{
+	text-decoration:none;;
+	color:#FFF;
+	display:block;
+	line-height:33px;
+	font-size: 20px;
+}
+
+
+
+
+.content-right
+{
+	float:left;
+	width:70%;
+}
+/* end content*/
